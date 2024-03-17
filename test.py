@@ -12,6 +12,7 @@ url = "https://www.nseindia.com/"
 
 options = webdriver.ChromeOptions()
 options.add_argument("user-agent={hi=)}")
+#options.add_argumentr=("--proxy-server=128.128.91.65:8000")
 options.add_argument("--disable-blink-features=AutomationControlled")
 service = Service(r"C:\Users\89833\PycharmProjects\pythonProject\chrome\chromedriver.exe")
 driver = webdriver.Chrome(service=service, options=options)
